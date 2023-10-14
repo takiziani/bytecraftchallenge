@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+    margin-bottom: 10px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    width: 108px;
+    margin: 20px;
+}
+.links,a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    justify-self: end;
+    justify-content: space-between
+}
+.register{
+    background-color: #4CAF4F;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+}
+.hero{
+    width: 100%;
+    height: 15%;
+    background-color: #F5F7FA;
+    display: grid;
+    /* grid-template-columns: 60% 40%; */
+    /* grid-template-columns: minmax(40%,auto) minmax(40%,40%); */
+    grid-template-columns: repeat(2,auto);
+    line-height: 1.2;
+}
+
+.register2 {
+    background-color: #4CAF4F;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+.uli1{
+    /* width: 100%; */
+    justify-self: center;
+}
+.difrenth1{
+    color: #4CAF4F;
+    font-size: 40px;
+    justify-self: flex-start;
+}
+.grow{
+    color: #717171;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.title{
+    font-size: 40px;
+}
+.client{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourclient{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.Community{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,1fr);
+    gap: 1%;
+    color: #4D4D4D;
+}
+.title2{
+    grid-column: 1/4;
+    text-align: center;
+}
+.para2{
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    color: #717171;
+}
+.float{
+    display: grid;
+    height: auto;
+    grid-template-rows: 1fr repeat(2,auto);
+    text-align: center;
+    /* border: #F5F7FA; */
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.142);
+}
+.cicons{
+    width: 70px;
+    height: 70px;
+    justify-self: center;
+}
+.unlock{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    color: #4D4D4D;
+
+}
+.frame35{
+    width: 100%;
+    height: 100%;
+    grid-row: 1/4;
+}
+.title3{
+    align-self: center;
+    justify-self: left;
+}
+.learn{
+    background-color: #4CAF4F;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    justify-self: right;
+}
+.achivement{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    text-align: left;
+    background-color: #F5F7FA;
+    width: 100%;
+}
+.help1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #4D4D4D;
+}
+.help2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #4CAF4F;
+}
+.help3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: #4D4D4D;
+}
+.payment{
+    grid-column: 3/4;
+}
+.eventboking{
+    grid-column: 2/3;
+}
+.help{
+    grid-row: 1/3;
+    align-self: center;
+}
+.position2{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,1fr);
+    color: #4D4D4D;
+}
+.member1,.member2,.member3,.member4{
+    width: 50px;
+    grid-row: 1/3;
+}
+.color{
+    color: #717171;
+}
+.tesla{
+    display: grid;
+    grid-template-columns: 38% 60%;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+.teslaimage{
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+}
+.costume{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.text{
+    grid-row: 1/2;
+}
+.meetc{
+    width: 50%;
+    height: 3vh;
+    
+}
+.meetallcusto{
+    color: #4CAF4F;
+    align-self: center;
+    justify-self: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.tim{
+    color: #4CAF4F;
+    font-weight: bolder;
+}
+.newmarket {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30% 70%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    gap: 10px;
+    max-width: 800px;
+    /* Set a maximum width */
+    margin: 0 auto;
+    /* Center horizontally */
+    padding: 20px;
+    /* Add some padding to create space around the content */
+}
+.text2 {
+    grid-column: 1/4;
+}
+
+.oldman {
+    grid-column: 1/2;
+}
+
+.pc {
+    grid-column: 2/3;
+}
+
+.pcw {
+    grid-column: 3/4;
+}
+
+.texthover {
+    background-color: #F5F7FA;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #717171;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.readmore {
+    color: #4CAF4F;
+}
+
+.gray {
+    color: #717171;
+}
+
+.hover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pic {
+    position: relative;
+    width: 100%;
+    top: 8%;
+    z-index: -1;
+    box-shadow: 1px 1px 10px #717171;
+}
+.beforelast{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #F5F7FA;
+}
+.stupid{
+    color: #4D4D4D;
+}
+.footer{
+    background-color: #263238;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    color: #F5F7FA;
+}
+.Company a{
+    display: flex;
+    flex-direction: column;
+    color: #F5F7FA;
+}
+.Support a{
+    display: flex;
+    flex-direction: column;
+    color: #F5F7FA;
+}
+.update a{
+    display: flex;
+    flex-direction: column;
+    color: #F5F7FA;
+}
+.logo2{
+    width: 100px;
+}
+#email{
+    width: 100%;
+    background-color: #9ba3bb;
+}
